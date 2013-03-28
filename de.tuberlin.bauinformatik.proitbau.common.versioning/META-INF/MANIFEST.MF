@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Versioning
+Bundle-SymbolicName: de.tuberlin.bauinformatik.proitbau.common.versioning;singleton:=true
+Bundle-Version: 3.3.0.qualifier
+Bundle-Vendor: Berlin Institute of Technology
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: de.bitub.proitbau.common.versioning.annotations,
+ de.bitub.proitbau.common.versioning.compare_results,
+ de.bitub.proitbau.common.versioning.model,
+ de.bitub.proitbau.common.versioning.model.logic,
+ de.bitub.proitbau.common.versioning.util
+Require-Bundle: com.google.guava;bundle-version="12.0.1",
+ ch.qos.logback.classic;bundle-version="0.9.27",
+ ch.qos.logback.core;bundle-version="0.9.27",
+ org.slf4j.api;bundle-version="1.6.1",
+ org.azeckoski.reflectutils;bundle-version="0.9.16",
+ org.apache.commons.beanutils;bundle-version="1.8.0"
+Eclipse-RegisterBuddy: com.fasterxml.jackson.databind
+Bundle-ActivationPolicy: lazy

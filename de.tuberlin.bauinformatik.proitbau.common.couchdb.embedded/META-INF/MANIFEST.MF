@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Embedded CouchDB
+Bundle-SymbolicName: de.tuberlin.bauinformatik.proitbau.common.couchdb.embedded;singleton:=true
+Bundle-Version: 3.3.0.qualifier
+Bundle-Vendor: Berlin Institute of Technology
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: de.bitub.proitbau.common.couchdb.embedded
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.7.0",
+ ch.qos.logback.classic;bundle-version="0.9.27",
+ ch.qos.logback.core;bundle-version="0.9.27",
+ org.slf4j.api;bundle-version="1.6.1"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: de.bitub.proitbau.common.couchdb.embedded.internal.CouchDBManagerActivator
+Eclipse-BundleShape: dir

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CouchDB Mixin Classes
+Bundle-SymbolicName: de.tuberlin.bauinformatik.proitbau.core.couchdb.mixin
+Bundle-Version: 3.3.0.qualifier
+Bundle-Vendor: Berlin Institute of Technology
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.ektorp.mod;bundle-version="1.3.0",
+ com.fasterxml.jackson.annotations;bundle-version="2.0.6",
+ com.fasterxml.jackson.databind;bundle-version="2.0.6",
+ com.google.guava;bundle-version="12.0.1",
+ de.tuberlin.bauinformatik.proitbau.common;bundle-version="3.3.0",
+ de.tuberlin.bauinformatik.proitbau.core.model.domain;bundle-version="3.3.0",
+ de.tuberlin.bauinformatik.proitbau.core.model.project;bundle-version="3.3.0"
+Export-Package: de.bitub.proitbau.common.model,
+ de.bitub.proitbau.common.model.bean,
+ de.bitub.proitbau.common.model.datastructure.structuring,
+ de.bitub.proitbau.common.model.persistance,
+ de.bitub.proitbau.common.model.templateinstance,
+ de.bitub.proitbau.core.couchdb.mixin.document.accessor,
+ de.bitub.proitbau.core.model.domain,
+ de.bitub.proitbau.core.model.domain.activitystate,
+ de.bitub.proitbau.core.model.domain.process,
+ de.bitub.proitbau.core.model.domain.process.edge,
+ de.bitub.proitbau.core.model.domain.process.node,
+ de.bitub.proitbau.core.model.domain.process.node.triple,
+ de.bitub.proitbau.core.model.domain.structuring,
+ de.bitub.proitbau.core.model.domain.subject,
+ de.bitub.proitbau.core.model.domain.time,
+ de.bitub.proitbau.core.model.project

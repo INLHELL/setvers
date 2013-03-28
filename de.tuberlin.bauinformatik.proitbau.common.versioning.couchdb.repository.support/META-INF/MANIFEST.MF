@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Versioning
+Bundle-SymbolicName: de.tuberlin.bauinformatik.proitbau.common.versioning.couchdb.repository.support;singleton:=true
+Bundle-Version: 3.3.0.qualifier
+Bundle-Vendor: Berlin Institute of Technology
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-BuddyPolicy: registered
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.ektorp.mod;bundle-version="1.3.0",
+ com.google.guava;bundle-version="12.0.1",
+ de.tuberlin.bauinformatik.proitbau.core.couchdb.manager;bundle-version="3.3.0",
+ org.eclipse.core.runtime;bundle-version="3.7.0",
+ ch.qos.logback.classic;bundle-version="0.9.27",
+ ch.qos.logback.core;bundle-version="0.9.27",
+ org.slf4j.api;bundle-version="1.6.1",
+ de.tuberlin.bauinformatik.proitbau.common.versioning;bundle-version="3.3.0",
+ de.tuberlin.bauinformatik.proitbau.common.versioning.couchdb.binding.graph;bundle-version="3.3.0"
+Export-Package: de.bitub.proitbau.common.versioning.couchdb.repository.support
+Bundle-Activator: de.bitub.proitbau.common.versioning.couchdb.repository.support.internal.RepositorySupportActivator

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson
+Bundle-SymbolicName: org.azeckoski.reflectutils
+Bundle-Version: 0.9.16.qualifier
+Bundle-Vendor: reflectutils
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.azeckoski.reflectutils.annotations,
+ org.azeckoski.reflectutils.beanutils,
+ org.azeckoski.reflectutils.converters,
+ org.azeckoski.reflectutils.converters.api,
+ org.azeckoski.reflectutils.exceptions,
+ org.azeckoski.reflectutils.map,
+ org.azeckoski.reflectutils.refmap,
+ org.azeckoski.reflectutils.transcoders,
+ org.azeckoski.reflectutils
+Require-Bundle: org.apache.commons.beanutils;bundle-version="1.8.0"

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Annotations
+Bundle-SymbolicName: com.fasterxml.jackson.annotations
+Bundle-Version: 2.1.3.qualifier
+Bundle-Vendor: FASTERXML
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: com.fasterxml.jackson.annotation

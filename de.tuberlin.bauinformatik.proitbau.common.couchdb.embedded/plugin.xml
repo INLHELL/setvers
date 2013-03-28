@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.core.runtime.adapters">
+      <factory
+            adaptableType="java.lang.Object"
+            class="de.bitub.proitbau.common.couchdb.embedded.internal.CouchDBManagerFactory">
+         <adapter
+               type="de.bitub.proitbau.common.couchdb.embedded.iCouchDBManager">
+         </adapter>
+      </factory>
+   </extension>
+
+</plugin>
