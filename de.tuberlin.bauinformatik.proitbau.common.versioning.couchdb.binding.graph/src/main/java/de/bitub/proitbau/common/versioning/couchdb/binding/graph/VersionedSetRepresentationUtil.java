@@ -1,10 +1,10 @@
 /*******************************************************************************
  * Author: "Vladislav Fedotov"
- * Written: 19.03.2013
- * Project:
- * de.tuberlin.bauinformatik.proitbau.common.versioning.couchdb.binding.graph
+ * Written: 2013
+ * Project: Setvers
  * E-mail: vladislav.fedotov@tu-berlin.de
  * Company: TU Berlin
+ * Version: 1.0
  * 
  * Copyright (c) 2013 Vladislav Fedotov.
  * All rights reserved. This program and the accompanying materials
@@ -13,7 +13,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  * 
  * Contributors:
- * "Vladislav Fedotov" - initial API and implementation
+ * Vladislav Fedotov - initial API and implementation
  ******************************************************************************/
 package de.bitub.proitbau.common.versioning.couchdb.binding.graph;
 
@@ -25,10 +25,6 @@ import java.util.Stack;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 
-/**
- * @author "Vladislav Fedotov"
- * 
- */
 public class VersionedSetRepresentationUtil {
 	
 	private VersionedSetRepresentationUtil() {

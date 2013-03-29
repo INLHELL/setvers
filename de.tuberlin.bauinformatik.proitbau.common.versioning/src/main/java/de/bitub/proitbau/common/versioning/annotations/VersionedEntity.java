@@ -1,14 +1,20 @@
-/*
- * Package: de.bitub.proitbau.versioning.annotations
+/*******************************************************************************
+ * Author: "Vladislav Fedotov"
+ * Written: 25.05.2010
  * Project: Setvers
- * File: VersionedEntity.java
- * Date: 25.05.2010
- * Time: 13:26:33
- * Company: TU-Berlin
- * Author: Vladislav Fedotov
- * E-mail: <a href="mailto:vladislav.fedotov@tu-berlin.de">Vladislav Fedotov</a>
+ * E-mail: vladislav.fedotov@tu-berlin.de
+ * Company: TU Berlin
  * Version: 1.0
- */
+ * 
+ * Copyright (c) 2013 Vladislav Fedotov.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Contributors:
+ * Vladislav Fedotov - initial API and implementation
+ ******************************************************************************/
 package de.bitub.proitbau.common.versioning.annotations;
 
 import java.lang.annotation.ElementType;

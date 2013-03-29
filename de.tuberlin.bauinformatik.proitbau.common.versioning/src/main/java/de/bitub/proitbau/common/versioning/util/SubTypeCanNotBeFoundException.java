@@ -1,9 +1,10 @@
 /*******************************************************************************
- * Author: "Vladislav Fedotov"
- * Written: 22.03.2013
- * Project: de.tuberlin.bauinformatik.proitbau.common.versioning
- * E-mail: vladislav.fedotov@tu-berlin.de
- * Company: TU Berlin
+ * Author:		"Vladislav Fedotov"
+ * Written:		2013
+ * Project:		Setvers
+ * E-mail:		vladislav.fedotov@tu-berlin.de
+ * Company:		TU Berlin
+ * Version:		1.0
  * 
  * Copyright (c) 2013 Vladislav Fedotov.
  * All rights reserved. This program and the accompanying materials
@@ -12,14 +13,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  * 
  * Contributors:
- * "Vladislav Fedotov" - initial API and implementation
+ *     Vladislav Fedotov - initial API and implementation
  ******************************************************************************/
 package de.bitub.proitbau.common.versioning.util;
 
-/**
- * @author "Vladislav Fedotov"
- * 
- */
 @SuppressWarnings("serial")
 public class SubTypeCanNotBeFoundException extends Exception {
 	

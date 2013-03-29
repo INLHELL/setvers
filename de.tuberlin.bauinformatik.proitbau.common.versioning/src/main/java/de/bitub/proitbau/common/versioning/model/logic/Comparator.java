@@ -1,14 +1,20 @@
-/*
- * Package: de.bitub.proitbau.versioning.main
+/*******************************************************************************
+ * Author: "Vladislav Fedotov"
+ * Written: 18.08.2010
  * Project: Setvers
- * File: NewComparator.java
- * Date: 18.08.2010
- * Time: 12:59:36
- * Company: TU-Berlin
- * Author: Vladislav Fedotov
- * E-mail: <a href="mailto:vladislav.fedotov@tu-berlin.de">Vladislav Fedotov</a>
+ * E-mail: vladislav.fedotov@tu-berlin.de
+ * Company: TU Berlin
  * Version: 1.0
- */
+ * 
+ * Copyright (c) 2013 Vladislav Fedotov.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Contributors:
+ * Vladislav Fedotov - initial API and implementation
+ ******************************************************************************/
 package de.bitub.proitbau.common.versioning.model.logic;
 
 import java.lang.reflect.Field;
